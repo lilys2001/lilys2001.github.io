@@ -133,6 +133,7 @@ h1 {
 img {
     height: 100%;
     width: 100%;
+    display: block;
 }
 
 .circle {
@@ -161,7 +162,7 @@ img {
     box-shadow: -2px 4px 4px #C9C9C9;
 }
 
-h3 {
+#about-text {
     font-family: Princess Sofia;
     font-size: 64px;
     font-weight: normal;
@@ -169,7 +170,15 @@ h3 {
     text-shadow: -2px 4px 4px #C9C9C9;
 }
 
-p {
+#projects-text {
+    font-family: Princess Sofia;
+    font-size: 64px;
+    font-weight: normal;
+    color: #333852;
+    text-shadow: -2px 4px 4px #C9C9C9;
+}
+
+#introduction {
     font-family: Muli;
     font-size: 24px;
     color: #6D6D6D;
@@ -194,7 +203,25 @@ p {
     justify-content: space-around;
 }
 
-.project {
+#proj1 {
+    height: 100%;
+    width: 100%;
+    margin: 32px;
+    margin-top: 0px;
+    padding: 0px;
+    box-shadow: -2px 4px 4px #C9C9C9;
+}
+
+#proj2 {
+    height: 100%;
+    width: 100%;
+    margin: 32px;
+    margin-top: 0px;
+    padding: 0px;
+    box-shadow: -2px 4px 4px #C9C9C9;
+}
+
+#proj3 {
     height: 100%;
     width: 100%;
     margin: 32px;
