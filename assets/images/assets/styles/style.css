@@ -1,0 +1,160 @@
+body {
+    background-color: #F9F9F9;
+    margin: 0px;
+    padding: 0px;
+}
+
+#load-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #E2B1B1;
+    top: 0px;
+    z-index: -1;
+}
+
+#header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 94px;
+    flex-wrap: wrap;
+}
+
+#left-side {
+    width: 35%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 118px;
+}
+
+#right-side {
+    height: 40%;
+    width: 40%;
+}
+
+#intro-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#circle-animation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Princess Sofia;
+    font-size: 102px;
+    font-weight: normal;
+    color: #6B5365;
+    text-shadow: -2px 4px 4px #B18686;
+    margin: 0px;
+    margin-left: -64px;
+}
+
+h4 {
+    font-family: Princess Sofia;
+    font-size: 56px;
+    font-weight: normal;
+    color: #6B5365;
+    text-shadow: -2px 4px 4px #B18686;
+    margin: 0px;
+    margin-top: -64px;
+    margin-left: 160px;
+}
+
+h1 {
+    font-family: Princess Sofia;
+    font-size: 144px;
+    font-weight: normal;
+    color: #F9F9F9;
+    text-shadow: -2px 4px 4px #B18686;
+    margin: 0px;
+    margin-top: -40px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background: #6B5365;
+    border-radius: 50%;
+    box-shadow: -2px 4px 4px #B18686;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.circle.first {
+    animation: fadeInFirst 4s ease-in-out 3;
+    animation-delay: 1s;
+}
+
+.circle.second {
+    animation: fadeInSecond 4s ease-in-out 3;
+    animation-delay: 2s;
+}
+
+.circle.third {
+    animation: fadeInThird 4s ease-in-out 3;
+    animation-delay: 3s;
+}
+
+@keyframes fadeInFirst {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 1;
+        background-color: #6B5365;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInSecond {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 1;
+        background-color: #6B5365;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInThird {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50%{
+        opacity: 1;
+        background-color: #6B5365;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,73 @@
+/*
+Color Scheme:
+- background color: #f9f9f9 (old #f0efed) (cool cream)
+- text color: #6d6d6d (medium gray)
+- accent 1: #333852 (navy blue)
+- accent 2: #e2b1b1 (old #d3a5a5) (muted pink)
+- accent 3: #808d7e (muted green)
+- accent 4: #6b5365 (muted plum)
+
+Fonts:
+- Muli
+*/
+
+/* General */
+body {
+    background-color: #f9f9f9;
+    color: #6d6d6d;
+    font-family: Muli;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h2 {
+    color: #333852;
+}
+
+a {
+    color: #6d6d6d;
+    text-decoration: none;
+    background-color: #e2b1b1;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+a:hover:not(.active) {
+    color: #333852;
+}
+
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 20px 20px -20px -20px;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    background-color: #f9f9f9;
+}
+
+li a:hover:not(.active) {
+
+    color: #ABABAB;
+}
+
+
+/* Specifics */
+#photo {
+    float: left;
+    width: 20%;
+    height: 20%;
+    padding-right: 24px;
+}
