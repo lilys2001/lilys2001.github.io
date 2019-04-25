@@ -94,67 +94,58 @@ img {
 }
 
 .circle.first {
-    animation: fadeInFirst 4s ease-in-out 3;
+    animation: changeColorFirst 4s ease-in-out 3;
     animation-delay: 1s;
 }
 
 .circle.second {
-    animation: fadeInSecond 4s ease-in-out 3;
+    animation: changeColorSecond 4s ease-in-out 3;
     animation-delay: 2s;
 }
 
 .circle.third {
-    animation: fadeInThird 4s ease-in-out 3;
+    animation: changeColorThird 4s linear 3;
     animation-delay: 3s;
 }
 
-@keyframes fadeInFirst {
+@keyframes changeColorFirst {
     0% {
-        opacity: 0;
-        transform: scale(0);
+        background-color: #6B5365;
     }
 
     50% {
-        opacity: 1;
-        background-color: #6B5365;
-        transform: scale(1);
+        background-color: #F9F9F9;
     }
 
     100% {
-        opacity: 1;
+        background-color: #6B5365;
     }
 }
 
-@keyframes fadeInSecond {
+@keyframes changeColorSecond {
     0% {
-        opacity: 0;
-        transform: scale(0);
+        background-color: #6B5365;
     }
 
     50% {
-        opacity: 1;
-        background-color: #6B5365;
-        transform: scale(1);
+        background-color: #F9F9F9;
     }
 
     100% {
-        opacity: 1;
+        background-color: #6B5365;
     }
 }
 
-@keyframes fadeInThird {
+@keyframes changeColorThird {
     0% {
-        opacity: 0;
-        transform: scale(0);
+        background-color: #6B5365;
     }
 
-    50%{
-        opacity: 1;
-        background-color: #6B5365;
-        transform: scale(1);
+    50% {
+        background-color: #F9F9F9;
     }
 
     100% {
-        opacity: 1;
+        background-color: #6B5365;
     }
 }
