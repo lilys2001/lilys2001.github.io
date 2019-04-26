@@ -229,3 +229,41 @@ img {
     padding: 0px;
     box-shadow: -2px 4px 4px #C9C9C9;
 }
+
+.project:hover {
+    cursor: pointer;
+}
+
+#arrow-frame {
+    height: 70px;
+    width: 140px;
+    z-index: -5;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -63px;
+}
+
+#arrow-down {
+    height: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -132px;
+    animation: arrow-pulse 2s ease-in-out infinite;
+}
+
+@keyframes arrow-pulse {
+    0%, 100% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+#arrow-down:hover {
+    cursor: pointer;
+}

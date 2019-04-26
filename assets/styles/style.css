@@ -94,17 +94,17 @@ img {
 }
 
 .circle.first {
-    animation: changeColorFirst 4s ease-in-out 3;
+    animation: changeColorFirst 4s ease-in-out 2;
     animation-delay: 1s;
 }
 
 .circle.second {
-    animation: changeColorSecond 4s ease-in-out 3;
+    animation: changeColorSecond 4s ease-in-out 2;
     animation-delay: 2s;
 }
 
 .circle.third {
-    animation: changeColorThird 4s linear 3;
+    animation: changeColorThird 4s ease-in-out 2;
     animation-delay: 3s;
 }
 

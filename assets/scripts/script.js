@@ -1,23 +1,9 @@
-setTimeout(function() {
-        document.getElementById('load').src = 'assets/images/Load' + 0 + '.gif';
-}, 1000 * 0);
+for (i = 0; i < 6; i++) {
+    loadHelper(i);
+}
 
-setTimeout(function() {
-        document.getElementById('load').src = 'assets/images/Load' + 1 + '.gif';
-}, 1000 * 1);
-
-setTimeout(function() {
-        document.getElementById('load').src = 'assets/images/Load' + 2 + '.gif';
-}, 1000 * 2);
-
-setTimeout(function() {
-        document.getElementById('load').src = 'assets/images/Load' + 3 + '.gif';
-}, 1000 * 3);
-
-setTimeout(function() {
-        document.getElementById('load').src = 'assets/images/Load' + 4 + '.gif';
-}, 1000 * 4);
-
-setTimeout(function() {
-        document.getElementById('load').src = 'assets/images/Load' + 5 + '.gif';
-}, 1000 * 5);
+function loadHelper(i) {
+    setTimeout(function() {
+            document.getElementById('load').src = 'assets/images/Load' + i + '.gif';
+    }, 1000 * i);
+};

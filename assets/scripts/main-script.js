@@ -1,6 +1,3 @@
-//document.getElementById('darklight').onclick = checkMode;
-//document.getElementById('change-self-image').onmousehover = changePic;
-
 var isLight = true;
 
 function checkMode() {
@@ -33,6 +30,7 @@ function changeToDark() {
     document.getElementById('az').src = 'assets/images/AZDark.gif';
     document.getElementById('scheduler').src = 'assets/images/SchedulerDark.gif';
     document.getElementById('maps').src = 'assets/images/MapsDark.gif';
+    document.getElementById('arrow-change').src = 'assets/images/GreenArrow.gif';
 
     document.getElementById('about-text').style.textShadow = '-2px 4px 4px #13172C';
     document.getElementById('projects-text').style.textShadow = '-2px 4px 4px #13172C';
@@ -62,6 +60,7 @@ function changeToLight() {
     document.getElementById('az').src = 'assets/images/AZLight.gif';
     document.getElementById('scheduler').src = 'assets/images/SchedulerLight.gif';
     document.getElementById('maps').src = 'assets/images/MapsLight.gif';
+    document.getElementById('arrow-change').src = 'assets/images/PinkArrow.gif';
 
     document.getElementById('hello').style.color = '#6B5365';
     document.getElementById('my-name').style.color = '#6B5365';
@@ -85,10 +84,16 @@ function changeToLight() {
     document.getElementById('proj3').style.boxShadow = '-2px 4px 4px #C9C9C9';
 }
 
-function changeFame() {
-    document.getElementById('change-self-image').src = 'assets/images/tree.jpg';
+function changeTree() {
+    document.getElementById('change-self-image').src = 'assets/images/tree-desaturated.jpg';
 }
 
 function changeSelf() {
     document.getElementById('change-self-image').src = 'assets/images/self.jpg';
+}
+
+window.onload = function() {
+    document.getElementById('darklight').onclick = checkMode;
+    document.getElementById('change-self-image').onmousemove = changeTree;
+    document.getElementById('change-self-image').onmouseout = changeSelf;
 }
