@@ -14,6 +14,7 @@ function changeToDark() {
     document.body.style.backgroundColor = '#333852';
     document.getElementById('navbar').style.backgroundColor = '#808D7E';
     document.getElementById('load-screen').style.backgroundColor = '#808D7E';
+    document.getElementById('footer').style.backgroundColor = '#808D7E';
 
     document.getElementById('hello').style.color = '#F9F9F9';
     document.getElementById('my-name').style.color = '#F9F9F9';
@@ -51,6 +52,7 @@ function changeToLight() {
     document.body.style.backgroundColor = '#F9F9F9';
     document.getElementById('navbar').style.backgroundColor = '#333852';
     document.getElementById('load-screen').style.backgroundColor = '#E2B1B1';
+    document.getElementById('footer').style.backgroundColor = '#333852';
 
     document.getElementById('change-header-image').src = 'assets/images/HeaderLight.gif';
     document.getElementById('email-pic').src = 'assets/images/LightEmail.gif';
