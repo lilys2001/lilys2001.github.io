@@ -217,17 +217,99 @@ img {
 }
 
 .project {
-    height: 30%;
-    width: 30%;
-    margin: 32px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
     box-shadow: -2px 4px 4px #C9C9C9;
 }
 
 .project:hover {
     cursor: pointer;
+}
+
+#proj1 {
+    height: 375px;
+    width: 375px;
+    margin: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-image: url("../images/AZLight.gif");
+    background-size: contain;
+}
+
+#az-description {
+    background-color: #E2B1B1;
+    color: #F9F9F9;
+    height: 100%;
+    position: relative;
+    top: -54px;
+    opacity: 0;
+}
+
+#proj1 #az-description:hover {
+    opacity: 1;
+}
+
+#proj2 {
+    height: 375px;
+    width: 375px;
+    margin: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-image: url("../images/SchedulerLight.gif");
+    background-size: contain;
+}
+
+#scheduler-description {
+    background-color: #E2B1B1;
+    color: #F9F9F9;
+    height: 100%;
+    position: relative;
+    top: -54px;
+    opacity: 0;
+}
+
+#proj2 #scheduler-description:hover {
+    opacity: 1;
+}
+
+#proj3 {
+    height: 375px;
+    width: 375px;
+    margin: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-image: url("../images/MapsLight.gif");
+    background-size: contain;
+}
+
+#maps-description {
+    background-color: #E2B1B1;
+    color: #F9F9F9;
+    height: 100%;
+    position: relative;
+    top: -54px;
+    opacity: 0;
+}
+
+#proj3 #maps-description:hover {
+    opacity: 1;
+}
+
+h5 {
+    font-family: Muli;
+    font-size: 32px;
+    text-align: center;
+    padding: 24px;
+    padding-bottom: 0px;
+}
+
+h6 {
+    font-family: Muli;
+    font-size: 24px;
+    text-align: center;
+    padding: 24px;
+    padding-top: 0px;
 }
 
 #arrow-frame {

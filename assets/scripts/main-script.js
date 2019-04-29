@@ -15,6 +15,9 @@ function changeToDark() {
     document.getElementById('navbar').style.backgroundColor = '#808D7E';
     document.getElementById('load-screen').style.backgroundColor = '#808D7E';
     document.getElementById('footer').style.backgroundColor = '#808D7E';
+    document.getElementById('az-description').style.backgroundColor = '#808D7E';
+    document.getElementById('scheduler-description').style.backgroundColor = '#808D7E';
+    document.getElementById('maps-description').style.backgroundColor = '#808D7E';
 
     document.getElementById('hello').style.color = '#F9F9F9';
     document.getElementById('my-name').style.color = '#F9F9F9';
@@ -28,9 +31,6 @@ function changeToDark() {
     document.getElementById('github-pic').src = 'assets/images/DarkGithub.gif';
     document.getElementById('linkedin-pic').src = 'assets/images/DarkLinkedin.gif';
     document.getElementById('sunmoon').src = 'assets/images/Sun.gif';
-    document.getElementById('az').src = 'assets/images/AZDark.gif';
-    document.getElementById('scheduler').src = 'assets/images/SchedulerDark.gif';
-    document.getElementById('maps').src = 'assets/images/MapsDark.gif';
     document.getElementById('arrow-change').src = 'assets/images/GreenArrow.gif';
 
     document.getElementById('about-text').style.textShadow = '-2px 4px 4px #13172C';
@@ -46,6 +46,10 @@ function changeToDark() {
     document.getElementById('proj1').style.boxShadow = '-2px 4px 4px #13172C';
     document.getElementById('proj2').style.boxShadow = '-2px 4px 4px #13172C';
     document.getElementById('proj3').style.boxShadow = '-2px 4px 4px #13172C';
+
+    document.getElementById('proj1').style.backgroundImage = "url('assets/images/AZDark.gif')";
+    document.getElementById('proj2').style.backgroundImage = "url('assets/images/SchedulerDark.gif')";
+    document.getElementById('proj3').style.backgroundImage = "url('assets/images/MapsDark.gif')";
 }
 
 function changeToLight() {
@@ -53,15 +57,15 @@ function changeToLight() {
     document.getElementById('navbar').style.backgroundColor = '#333852';
     document.getElementById('load-screen').style.backgroundColor = '#E2B1B1';
     document.getElementById('footer').style.backgroundColor = '#333852';
+    document.getElementById('az-description').style.backgroundColor = '#E2B1B1';
+    document.getElementById('scheduler-description').style.backgroundColor = '#E2B1B1';
+    document.getElementById('maps-description').style.backgroundColor = '#E2B1B1';
 
     document.getElementById('change-header-image').src = 'assets/images/HeaderLight.gif';
     document.getElementById('email-pic').src = 'assets/images/LightEmail.gif';
     document.getElementById('github-pic').src = 'assets/images/LightGithub.gif';
     document.getElementById('linkedin-pic').src = 'assets/images/LightLinkedin.gif';
     document.getElementById('sunmoon').src = 'assets/images/Moon.gif';
-    document.getElementById('az').src = 'assets/images/AZLight.gif';
-    document.getElementById('scheduler').src = 'assets/images/SchedulerLight.gif';
-    document.getElementById('maps').src = 'assets/images/MapsLight.gif';
     document.getElementById('arrow-change').src = 'assets/images/PinkArrow.gif';
 
     document.getElementById('hello').style.color = '#6B5365';
@@ -84,6 +88,10 @@ function changeToLight() {
     document.getElementById('proj1').style.boxShadow = '-2px 4px 4px #C9C9C9';
     document.getElementById('proj2').style.boxShadow = '-2px 4px 4px #C9C9C9';
     document.getElementById('proj3').style.boxShadow = '-2px 4px 4px #C9C9C9';
+
+    document.getElementById('proj1').style.backgroundImage = "url('assets/images/AZLight.gif')";
+    document.getElementById('proj2').style.backgroundImage = "url('assets/images/SchedulerLight.gif')";
+    document.getElementById('proj3').style.backgroundImage = "url('assets/images/MapsLight.gif')";
 }
 
 function changeTree() {
