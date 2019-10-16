@@ -20,7 +20,7 @@ body {
 
 #navbar {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     flex-direction: row;
     height: 64px;
@@ -120,6 +120,7 @@ h2 {
     text-shadow: -2px 4px 4px #B18686;
     margin: 0px;
     margin-left: -64px;
+    z-index: 1;
 }
 
 h4 {
@@ -131,6 +132,7 @@ h4 {
     margin: 0px;
     margin-top: -64px;
     margin-left: 160px;
+    z-index: 1;
 }
 
 h1 {
@@ -141,6 +143,7 @@ h1 {
     text-shadow: -2px 4px 4px #B18686;
     margin: 0px;
     margin-top: -40px;
+    z-index: 1;
 }
 
 img {
@@ -181,6 +184,25 @@ img {
     font-weight: normal;
     color: #333852;
     text-shadow: -2px 4px 4px #C9C9C9;
+}
+
+#writing-content {
+    margin: 64px;
+    padding-top: 16px;
+}
+
+#writing-text {
+    font-family: Princess Sofia;
+    font-size: 64px;
+    font-weight: normal;
+    color: #333852;
+    text-shadow: -2px 4px 4px #C9C9C9;
+}
+
+#writing-links {
+    font-family: Muli;
+    font-size: 24px;
+    color: #6D6D6D;
 }
 
 #projects-text {
