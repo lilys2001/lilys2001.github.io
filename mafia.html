@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass">
+
+        <title>Lily Sai</title>
+
+        <link rel="stylesheet" href="assets/styles/animate.css">
+        <script src="assets/scripts/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel = "stylesheet" href = "assets/styles/style.css">
+        <script type="text/javascript" src = "assets/scripts/smoothScroll.js"></script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/site.webmanifest">
+    </head>
+
+    <body>
+
+        <div class = "wow fadeIn" data-wow-duration = "2s" id = "to-top"><a href = "#page">↑</a></div>
+
+        <div class = "section" id = "page">
+            <div id = "navbar">
+                <a id = "name" href = "index.html">LILY SAI</a>
+                <div id = "nav-items">
+                    <div class = "nav-item">
+                        <a class = "nav-link" href = "work.html">WORK</a>
+                        <!-- <div class = "underline"></div> -->
+                    </div>
+                    <div class = "nav-item">
+                        <a class = "nav-link" href = "about.html">ABOUT</a>
+                        <!-- <div class = "underline"></div> -->
+                    </div>
+                    <div class = "nav-item">
+                        <a class = "nav-link" href = "assets/documents/resume.pdf" target = "_blank">RESUME</a>
+                        <!-- <div class = "underline"></div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class = "section project">
+                <a href = "https://github.com/lilys2001/Mafia-Role-Generator" target = "_blank"><h3 class = "project-title wow fadeIn" data-wow-duration = "1s">Mafia Role Generator</h3></a>
+                <h4 class = "collab wow fadeIn" data-wow-duration = "1.5s">CS Kickstart Final Project</h4>
+                <div class = "project-banner wow fadeIn" data-wow-duration = "1.5s">
+                    <img src = "assets/images/mafiabanner.png"/>
+                </div>
+                <div class = "project-content">
+                    <h4 class = "wow fadeInUp" data-wow-duration = "1s">Introduction</h4>
+                    <p class = "wow fadeInUp" data-wow-duration = "1s">Growing up, <a href = "https://en.wikipedia.org/wiki/Werewolf_(social_deduction_game)" target = "_blank"><span class = "blue">Mafia</span></a> was one of my favorite games to play with my friends, and so when we played it again during CS Kickstart, I was reminded of how much I used to enjoy it. Although the rules and mechanics of the game are pretty easy to grasp, I noticed that every time I wanted to play the game, there was not  an easy way to secretly and randomly assign roles, so my final project at CS Kickstart was developed as a solution for this problem.</p>
+
+                    <h4 class = "wow fadeInUp" data-wow-duration = "1s">Approach</h4>
+                    <p class = "wow fadeInUp" data-wow-duration = "1s">CS Kickstart was my first introduction to Python, so I knew I had to keep my project viable using only the basic skills I had picked up in the 3 days of programming lessons we had. By the time we started our final projects, we had only learned conditional statements, looping, function definitions, and how to take in user input from the terminal. I started by creating a way to randomly assign roles to players, so I did some research on the random library, and I realized that I could just shuffle a list of roles and then pair it back up with the list of player names. Instead, I focused on the "interface" of the game, utilizing the time library to display each player's role in the terminal and then erasing it before the next pair was shown. I continued to build upon the project by adding in the option for "special roles," ones that make the game more fun, but only work with larger groups, and scaled the number of other roles appropriately.</p>
+
+                    <h4 class = "wow fadeInUp" data-wow-duration = "1s">Challenges, Conclusion, & Future Improvements</h4>
+                    <p class = "wow fadeInUp" data-wow-duration = "1s">Because this was my first experience with Python, this program was very simple. However, it does meet all necessary functionalities for secretly and randomly assigning roles for the game. I was really proud of what I had been able to accomplish with only a few days of Python lessons. Although I do not think I will continue developing this program (as I know there are others like it already in the market), I think it was a great first project for me. In the future, I would like to take the same concept and use it when trying to learn mobile development.</p>
+
+                    <a href = "https://github.com/lilys2001/Mafia-Role-Generator" target = "_blank"><p class = "project-title wow fadeInUp" data-wow-duration = "1s"><span class = "blue center">github</span></p></a>
+
+                    <h2 id = "next" class = "wow fadeInUp" data-wow-duration = "1s"><a href = "scheduler.html"><span class = "blue">← Previous Project</span></a></h2>
+                </div>
+            </div>
+
+            <div class = "section" id = "footer">
+                <p>Connect with me on <a href="https://linkedin.com/in/lilysai/" target="_blank"><span class="blue">LinkedIn</span></a> or email me at <a href="mailto:lilysai@berkeley.edu"><span class="blue">lilysai@berkeley.edu</span></a></p>
+                <p><a href="https://github.com/lilys2001" target="_blank"><span class="pink">Copyright (c) 2020 Lily Sai</span></a></p>
+            </div>
+        </div>
+    </body>
+</html>
