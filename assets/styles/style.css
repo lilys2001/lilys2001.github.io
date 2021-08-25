@@ -313,6 +313,7 @@ a:hover .contact {
 }
 
 .filter-hashtag {
+    background-color: var(--background-color);
     border: none;
     color: var(--font-color);
     padding: 0;
